@@ -11,6 +11,11 @@
 		F825B60E287AEAC20017CA18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B60D287AEAC20017CA18 /* ContentView.swift */; };
 		F825B610287AEAC30017CA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825B60F287AEAC30017CA18 /* Assets.xcassets */; };
 		F825B613287AEAC30017CA18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825B612287AEAC30017CA18 /* Preview Assets.xcassets */; };
+		F825B61A287AEB810017CA18 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B619287AEB810017CA18 /* AppState.swift */; };
+		F825B61C287AEC9B0017CA18 /* AppActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B61B287AEC9B0017CA18 /* AppActions.swift */; };
+		F825B61E287AEF1B0017CA18 /* Reducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B61D287AEF1B0017CA18 /* Reducers.swift */; };
+		F825B620287AF0010017CA18 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B61F287AF0010017CA18 /* AppStore.swift */; };
+		F825B624287AF6ED0017CA18 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F825B623287AF6ED0017CA18 /* AnimalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F825B60D287AEAC20017CA18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F825B60F287AEAC30017CA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F825B612287AEAC30017CA18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F825B619287AEB810017CA18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F825B61B287AEC9B0017CA18 /* AppActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActions.swift; sourceTree = "<group>"; };
+		F825B61D287AEF1B0017CA18 /* Reducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducers.swift; sourceTree = "<group>"; };
+		F825B61F287AF0010017CA18 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		F825B623287AF6ED0017CA18 /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				F825B60B287AEAC20017CA18 /* Redux_like_ArchitectureApp.swift */,
 				F825B60D287AEAC20017CA18 /* ContentView.swift */,
+				F825B619287AEB810017CA18 /* AppState.swift */,
+				F825B61B287AEC9B0017CA18 /* AppActions.swift */,
+				F825B61D287AEF1B0017CA18 /* Reducers.swift */,
+				F825B61F287AF0010017CA18 /* AppStore.swift */,
+				F825B623287AF6ED0017CA18 /* AnimalView.swift */,
 				F825B60F287AEAC30017CA18 /* Assets.xcassets */,
 				F825B611287AEAC30017CA18 /* Preview Content */,
 			);
@@ -137,6 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F825B61A287AEB810017CA18 /* AppState.swift in Sources */,
+				F825B61E287AEF1B0017CA18 /* Reducers.swift in Sources */,
+				F825B61C287AEC9B0017CA18 /* AppActions.swift in Sources */,
+				F825B620287AF0010017CA18 /* AppStore.swift in Sources */,
+				F825B624287AF6ED0017CA18 /* AnimalView.swift in Sources */,
 				F825B60E287AEAC20017CA18 /* ContentView.swift in Sources */,
 				F825B60C287AEAC20017CA18 /* Redux_like_ArchitectureApp.swift in Sources */,
 			);
